@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css'>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <link rel="stylesheet" href="assets/styles.css"></link>
+
+     
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+
+	<link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/style.css">
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+
+
+    <title>Marco A. Grimaldo</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var dataHeader = [
+                            {
+                              bigImage :"images/slide-1.jpg",
+                              title : "Minimal & Clean",
+							  author : "Templatestock"
+                            },
+                            {
+                              bigImage :"images/slide-2.jpg",
+                              title : "I'm A Creative Theme",
+                              author : "Templatestock"
+                            },
+                            {
+                              bigImage :"images/slide-3.jpg",
+                              title : "Achieve Success",
+                              author : "Templatestock"
+                            }
+                        ],
+            loaderSVG = new SVGLoader(document.getElementById('loader'), {speedIn : 600, speedOut : 600, easingIn : mina.easeinout});
+            loaderSVG.show()
+        </script>
+    <header class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper  indigo darken-4 fixed">
+              <a href="#!" class="brand-logo">Marco Grimaldo</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#portfolio1">Portafolio</a></li>
+                <li><a href="/CV-MarcoGrimaldo.pdf">CV</a></li>
+                <li><a href="#contact">Contacto</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav blue-grey lighten-5" id="mobile-demo">
+            <li><div class="user-view ">
+                <a href="#"><img class="circle" src="images/yop.jpeg"></a>
+                <a href="#"><span class="black-text name">Marco A. Grimaldo Peralta</span></a>
+                <a href="#"><span class="black-text email">Systems engineer</span></a>
+              </div></li>
+            <li><a href="#about"><i class="material-icons">account_circle</i>Acerca de mí</a></li>
+            <li><a href="#portfolio1"><i class="material-icons">view_module</i>Portafolio</a></li>
+            <li><a href="#contact"><i class="material-icons">contact_mail</i>Contacto</a></li>
+            <li><a href="/CV-MarcoGrimaldo.pdf"><i class="material-icons">file_download</i>Curriculum Vitae</a></li>
+          </ul>
+    </header>
+
+    <div class="row blue-grey lighten-5 section container-fluid">
+
+        <div class="col s3 hide-on-med-and-down">
+          <!-- Grey navigation panel -->
+          <ul id="slide-out" class="side-nav fixed blue-grey lighten-5">
+            <li><div class="userView">
+                <img class="background" src="http://placehold.it/350x150">
+                <a href="#"><img class="circle" src="images/yop.jpeg"></a>
+                <a href="#"><span class="black-text name">Marco A. Grimaldo Peralta</span></a>
+                <a href="#"><span class="black-text email">Systems engineer</span></a>
+            </div></li>
+            <li><a href="#about"><i class="material-icons">account_circle</i>Acerca de mí</a></li>
+            <li><a href="#portfolio1"><i class="material-icons">view_module</i>Portafolio</a></li>
+            <li><a href="#contact"><i class="material-icons">contact_mail</i>Contacto</a></li>
+            <li><a href="/CV-MarcoGrimaldo.pdf"><i class="material-icons">file_download</i>Curriculum Vitae</a></li>
+        </ul>
+        </div>
+
+        
+  
+        <div class="col s12 m12 l9 ">
+            <!-- ABOUT -->
+
+            <div class="col s12 m12 l8 offset-l2 Intro">
+                <h1></h1>
+            </div>
+                
+
+            <section id="about" class="light col s12">
+                <header class="title">
+                <h2>Acerca de <span>Mí</span></h2>
+                <p>Hola, soy Marco Antonio Grimaldo Peralta, Ingeniero en Sistemas. Me gusta el desarrollo web y movil ya que puedo explotar mi creatividad en la resolución de problemas.</p>
+                </header>
+        
+                <div class="col s12">
+                <div class="row table-row">
+        
+                    <div class="col-sm-6">
+                    <div class="section-content">
+                        <div class="about-content left animated" data-animate="fadeInLeft">
+                        <div class="about-icon"><i class="fa fa-terminal"></i></div>
+                        <div class="about-detail">
+                            <h4>Crear Código</h4>
+                            <p>Cuando descubrí la programación, se volvió una pasión para mi, las ordenes convertidas en programas funcionales crean en mí una satisfacción enorme que solo encuentro al momento de programar.</p>
+                        </div>
+                        </div>
+        
+                        <div class="about-content left animated" data-animate="fadeInLeft">
+                        <div class="about-icon"><i class="fa fa-code"></i></div>
+                        <div class="about-detail">
+                            <h4>Desarrollo Web</h4>
+                            <p>Con el Desarrollo Web, mi gusto por programar se enlazó con mi creatividad, el poder desarrollar Webs interactivas y bonitas, se convirtió rápidamente en mi pasión.</p>
+                        </div>
+                        </div>
+        
+                        <div class="about-content left animated" data-animate="fadeInLeft">
+                        <div class="about-icon"><i class="fa fa-gamepad"></i></div>
+                        <div class="about-detail">
+                            <h4>Video Juegos</h4>
+                            <p>Mi hobbie principal son los Video Juegos, si no estoy programando, estoy jugando. Este hobbie me ha llevado a conocer las raíces de los juegos, aventurandome a conocer el desarrollo de los mismos.</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div> <!-- /.row table-row -->
+                </div> <!-- /.container -->
+            </section>
+
+            <!-- PORTFOLIO -->
+
+            <section id="portfolio" class="light">
+                <header class="title" >
+                <h2 >Portfolio</h2>
+                <p>Estos son los proyectos que he realizado a lo largo de mi experiencia y formación, ya sea escolar, profesional y personal. </p>
+                </header>
+        
+                <div class="container-fluid" id="portfolio1">
+                <div class="row">
+                    <ul id="filters" class="list-inline">
+                    <li data-filter="all" class="filter">Todo</li>
+                    <li data-filter=".react" class="filter">React</li> 
+                    <li data-filter=".escolar" class="filter">Escolar</li> 
+                    <li data-filter=".exp" class="filter">Experiencia</li> 
+                    <li data-filter=".perso" class="filter">Personal</li> 
+                    </ul>
+                </div>
+        
+                <div class="row">
+                    <div class="container-portfolio">
+                    <!-- PORTFOLIO OBJECT -->
+                    <script type="text/javascript">
+                    var portfolio = [
+                            {
+                                category : "exp",
+                                image : "images/ciita.jpg",
+                                title : "CIITA <span>CHIHUAHUA</span>",
+                                link : "https://www.ciitachihuahua.ipn.mx/",
+                                text : "Front End Developer. React & Materialize CSS"
+                            },
+                            {
+                                category : "exp",
+                                image : "images/recorreTeoti.jpg",
+                                title : "Recorre <span>Teotihuacán</span>",
+                                link : "http://recorreteotihuacan.com/",
+                                text : "HTML, CSS, Bootstrap Page."
+                            },
+                            {
+                                category : "escolar",
+                                image : "images/ducer.png",
+                                title : "<span>DUCER</span>",
+                                link : "https://github.com/MarioMiranda98/DUCER",
+                                text : "Flutter App."
+                            },
+                            {
+                                category : "escolar",
+                                image : "images/ductum.png",
+                                title : "<span>DUCTUM</span>",
+                                link : "https://github.com/MarcoGrimaldo/DUCTUM",
+                                text : "JAVA & MySQL Aplication."
+                            },
+                            {
+                                category : "escolar",
+                                image : "images/secretSanta.jpg",
+                                title : "Secret <span>Santa</span>",
+                                link : "https://github.com/MarcoGrimaldo/Secret-Santa",
+                                text : "PHP, HTML, CSS, Bootstrap & MySQL Responsive."
+                            },
+                            {
+                                category : "perso",
+                                image : "images/d2b.png",
+                                title : "D2L <span>BALL</span>",
+                                link : "https://play.google.com/store/apps/details?id=com.GrimGames.D2LBall",
+                                text : "Mobile Game made on Unity (C++)."
+                            },
+                            {
+                                category : "react",
+                                image : "images/recorreTeotiReact.jpg",
+                                title : "Recorre <span>Teotihuacán</span>",
+                                link : "https://marcogrimaldo.github.io/recorre-teoti/#/",
+                                text : "React Version."
+                            },
+                            {
+                                category : "react",
+                                image : "images/pokedex.jpg",
+                                title : "<span>Pokedex</span>",
+                                link : "https://marcogrimaldo.github.io/pokemon-pdf/",
+                                text : "React App."
+                            },
+                        ];
+                    </script>
+                    </div>
+                </div>
+                </div>
+            </section>
+        
+        
+            <!-- TEAM -->
+        
+            <section id="team" class="light col s12">
+                <header class="title">
+                <h2>Mi <span>Educación</span></h2>
+                <p>Lugares de la adquisición de mis habilidades, conocimientos y la ampliación de horizontes personales dentro de mi desarrollo como profesional.</p>
+                </header>
+                
+                <div class="">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 text-center">
+                    <div class="wrap animated" data-animate="fadeInDown">
+                        <div class="img-team">
+                        <img src="images/escom.jpg" alt="" class="img-circle">
+                        </div>
+        
+                        <h3>ESCOM</h3>
+                        <h5>INGENIERÍA EN SISTEMAS COMPUTACIONALES (2009)</h5>
+        
+                        <p>Sólida formación integral, para proponer, analizar, diseñar, desarrollar, implementar, gestionar y administrar sistemas computacionales.</p>
+        
+                        <div class="team-social">
+                        <ul class="list-inline social-list">
+                            <li><a href="https://www.escom.ipn.mx/" class="fa fa-info-circle"></a></li>
+                        </ul> 
+                        </div>                
+                    </div>
+                    </div>
+        
+                    <div class="col-md-3 col-sm-6 text-center">
+                    <div class="wrap animated" data-animate="fadeInDown"> 
+                        <div class="img-team">
+                        <img src="images/uk.png" alt="" class="img-circle">
+                        </div>
+        
+                        <h3>INGLÉS</h3>
+                        <h5>B2</h5>
+        
+                        <p>En lenguaje coloquial, este nivel se puede describir como "con confianza" en el sentido de "Hablo inglés con confianza".</p>
+        
+                        <div class="team-social">
+                        <ul class="list-inline social-list">
+                            <li><a href="http://celexescom.blogspot.com/" class="fa fa-info-circle"></a></li>
+                        </ul> 
+                        </div>                
+                    </div>
+                    </div>
+        
+                    <div class="col-md-3 col-sm-6 text-center">
+                    <div class="wrap animated" data-animate="fadeInDown"> 
+                        <div class="img-team">
+                        <img src="images/ztm.png" alt="" class="img-circle">
+                        </div>
+        
+                        <h3>Zero to Mastery</h3>
+                        <h5>The Complete Web Developer in 2021</h5>
+        
+                        <p>Learn to code and become a Web Developer in 2021 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more!</p>
+        
+                        <div class="team-social">
+                        <ul class="list-inline social-list">
+                            <li><a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/" class="fa fa-info-circle"></a></li>
+                        </ul> 
+                        </div>                
+                    </div>
+                    </div>
+        
+                    <div class="col-md-3 col-sm-6 text-center">
+                    <div class="wrap animated" data-animate="fadeInDown"> 
+                        <div class="img-team">
+                        <img src="images/php.png" alt="" class="img-circle">
+                        </div>
+        
+                        <h3>PHP 7 y MYSQL</h3>
+                        <h5>El Curso Completo, Práctico y Desde Cero !</h5>
+        
+                        <p>El Curso que te enseña como hacer cualquier Aplicación o Sitio web desde 0 con PHP y MYSQL.</p>
+        
+                        <div class="team-social">
+                        <ul class="list-inline social-list">
+                            <li><a href="https://www.udemy.com/course/php-y-mysql/" class="fa fa-info-circle"></a></li>
+                        </ul> 
+                        </div>                
+                    </div>
+                    </div>
+                </div>
+                </div> <!-- /.container -->
+            </section>
+            
+                <!-- INFO -->
+        
+            <section id="info" class="dark col s12">
+                <header class="title">
+                <h2>Mis <span>Skills</span></h2>
+                <p>Conocimientos sobre desarrollo adquiridos y memorizados a lo largo de mis años de formación.</p>
+                </header>
+        
+                <div class=" experties">
+                <div class="row">
+                    <div class="col-md-6">
+                    <div class="skill">
+                        <ul class="skill-bar list-unstyled">
+                        <li><span class="percentage" data-value="80%"></span><em>JavaScript</em></li>
+                        <li><span class="percentage" data-value="95%"></span><em>Web Design</em></li>
+                        <li><span class="percentage" data-value="90%"></span><em>React</em></li>
+                        <li><span class="percentage" data-value="70%"></span><em>Node JS</em></li>
+                        </ul>
+                    </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                    <div class="skill">
+                        <ul class="skill-bar list-unstyled">
+                        <li><span class="percentage" data-value="63%"></span><em>PHP</em></li>
+                        <li><span class="percentage" data-value="53%"></span><em>C++</em></li>
+                        <li><span class="percentage" data-value="82%"></span><em>JAVA</em></li>
+                        <li><span class="percentage" data-value="57%"></span><em>Python</em></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </div> <!-- /.container -->
+            </section>	
+            
+        
+            <section class="separator blue">
+                <div class="">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="counter animated" data-animate="fadeInUp" data-delay="0">
+                        <div class="counter-icon">
+                        <i class="fa fa-book"></i>
+                        </div>
+                        <div class="counter-content">
+                        <span class="value" data-from="0" data-to="5"></span>
+                        <small>Años de estudio</small>
+                        </div>
+                    </div>
+                    </div>
+        
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="counter animated" data-animate="fadeInUp" data-delay="500">
+                        <div class="counter-icon">
+                        <i class="fa fa-globe"></i>
+                        </div>
+                        <div class="counter-content">
+                        <span class="value" data-from="0" data-to="10"></span>
+                        <small>Proyectos Realizados</small>
+                        </div>
+                    </div>
+                    </div>
+        
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
+                        <div class="counter-icon">
+                        <i class="fa fa-gears"></i>
+                        </div>
+                        <div class="counter-content">
+                        <span class="value" data-from="0" data-to="18"></span>
+                        <small>Meses de Experiencia</small>
+                        </div>
+                    </div>
+                    </div>
+        
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
+                        <div class="counter-icon">
+                        <i class="fa fa-star"></i>
+                        </div>
+                        <div class="counter-content">
+                        <span class="value" data-from="0" data-to="100"></span>
+                        <small>Actitud</small>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        
+        
+            <!-- FOOTER CONTACT -->
+        
+            <section id="contact" class="dark">
+                <header class="title">
+                <h2>Contacta<span>Me</span></h2>
+                </header>
+        
+                <div class="">
+                <div class="row">
+                    <div class="col-md-8 animated" data-animate="fadeInLeft">
+                    <form action="#">
+                        <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class="form-control" rows="3" placeholder="Dime lo que sea"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-default submit">Send</button>
+                        </div>
+                        </div>
+                    </form>
+                    </div>
+        
+                    <div class="col-md-4 animated" data-animate="fadeInRight">
+                    <address>
+                        <span><i class="fa fa-map-marker fa-lg"></i> Ciudad de México, México</span>
+                        <span><i class="fa fa-phone fa-lg"></i> (+52 ) 5523714434</span>
+                        <span><i class="fa fa-envelope-o fa-lg"></i> <a href="">marco.a.grimaldo98@gmail.com</a></span>
+                        <span><i class="fa fa-globe fa-lg"></i> <a href="http://example.com">example.com</a></span>
+                    </address>
+                    </div>
+                    
+                </div>
+                </div>
+            </section>
+        
+            </div><!-- /.container-fluid -->
+            
+            <!-- SCRIPT -->
+            <script type="text/javascript" src="js/main.js"></script>
+            <script  src="assets/script.js"></script>
+      </body>
+           
+        </div>
+  
+      </div>
+
+
+    
+
+      <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, {});
+        });
+    </script>
+   
+</body>
+</html>

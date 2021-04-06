@@ -1,0 +1,32 @@
+.nav-wrapper{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.sidenav .user-view, .userView{
+    background: linear-gradient(#1a237e 40%, #eceff1 40%) no-repeat;
+    margin-bottom: 0;
+}
+
+.sidenav .user-view .circle{
+    height: 100%;
+    width: 55%;
+    margin-left: 4rem;
+    border: solid;
+    border-width: 5px;
+    border-color: #eceff1 ;
+}
+
+.side-nav .userView .circle{
+    height: 100%;
+    width: 100%;
+    border: solid;
+    border-width: 5px;
+    border-color: #eceff1 ;
+}
+
+.side-nav.fixed{
+    margin-top: 63px;
+    position: fixed;
+    width: 25.5%;
+}
